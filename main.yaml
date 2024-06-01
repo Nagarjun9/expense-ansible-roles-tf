@@ -1,4 +1,4 @@
-- name: "configure {{ componet }} server"
+- name: "configure {{ component }} server"
   host: all 
   connection: local 
   vars_files: 
@@ -7,4 +7,3 @@
   roles: 
   - "{{ component }}"
 
-  
